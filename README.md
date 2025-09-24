@@ -163,7 +163,7 @@ This table maps the key Java concepts required by the project to their implement
 
 ## 7. Screenshots
 
-### JDK Installation
+### Java Installation Verification
 <img width="1089" height="193" alt="Java Installation Verification" src="https://github.com/user-attachments/assets/1250a739-6050-4157-8f92-556626036482" />
 
 
@@ -190,7 +190,9 @@ This table maps the key Java concepts required by the project to their implement
 * This project was completed as a requirement for the "Programming in Java" course.
   
 Project Completed: September 2025
+
 Academic Session: Semester 3, B.Tech Computer Science
+
 Institution: Vellore Institute of Technology (VIT)
 
 This project demonstrates comprehensive understanding of Java SE features, object-oriented programming principles, and software engineering best practices.
