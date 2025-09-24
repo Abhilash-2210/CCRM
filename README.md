@@ -1,17 +1,25 @@
+
 # Campus Course & Records Manager (CCRM)
+Name: Abhilash Singh
+
+Registration Number: 24BCE10706
+
+Course: Programming in Java
+
+Institution: Vellore Institute of Technology (VIT)
 
 ## 1. Project Overview
 
-[cite_start]The Campus Course & Records Manager (CCRM) is a console-based Java application designed for an educational institute to manage students, courses, enrollments, and grades[cite: 4]. [cite_start]It serves as a comprehensive demonstration of core and advanced Java SE features, from Object-Oriented Programming principles to modern I/O and design patterns[cite: 12].
+The Campus Course & Records Manager (CCRM) is a console-based Java application designed for an educational institute to manage students, courses, enrollments, and grades. It serves as a comprehensive demonstration of core and advanced Java SE features, from Object-Oriented Programming principles to modern I/O and design patterns.
 
 ### Key Features
 
-* **Student Management**: Add, list, update, and deactivate students. [cite_start]View student profiles and generate academic transcripts[cite: 17, 19].
-* **Course Management**: Create, list, update, and search for courses. [cite_start]Assign instructors and filter courses by department or semester using the Stream API[cite: 21, 23].
-* [cite_start]**Enrollment & Grading**: Enroll and unenroll students from courses with business rule validation (e.g., max credits)[cite: 25]. [cite_start]Record marks, compute letter grades, and calculate GPA[cite: 26].
-* [cite_start]**File Operations**: Import and export application data (students, courses) from/to CSV-like text files using Java NIO.2[cite: 30, 31].
-* [cite_start]**Data Backup**: A utility to back up all data files into a timestamped archive folder[cite: 32].
-* [cite_start]**Reports**: Generate simple reports like GPA distribution using the Stream API[cite: 93, 120].
+* **Student Management**: Add, list, update, and deactivate students. View student profiles and generate academic transcripts.
+* **Course Management**: Create, list, update, and search for courses. Assign instructors and filter courses by department or semester using the Stream API.
+* **Enrollment & Grading**: Enroll and unenroll students from courses with business rule validation (e.g., max credits). Record marks, compute letter grades, and calculate GPA.
+* **File Operations**: Import and export application data (students, courses) from/to CSV-like text files using Java NIO.2.
+* **Data Backup**: A utility to back up all data files into a timestamped archive folder.
+* **Reports**: Generate simple reports like GPA distribution using the Stream API.
 
 ---
 
@@ -27,7 +35,7 @@
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Abhilash-2210/CCRM.git](https://github.com/Abhilash-2210/CCRM.git)
+    git clone https://github.com/Abhilash-2210/CCRM.git 
     cd CCRM
     ```
 
@@ -42,7 +50,7 @@
     * Right-click on the file and select `Run As` > `Java Application`.
 
 4.  **Running with Assertions Enabled:**
-    [cite_start]To run the program with assertions enabled (as required by the project), you need to add the `-ea` VM argument[cite: 89, 137].
+    To run the program with assertions enabled (as required by the project), you need to add the `-ea` VM argument.
     * Go to `Run` > `Run Configurations...`.
     * Select your application's run configuration.
     * Go to the `Arguments` tab.
@@ -53,7 +61,7 @@
 
 ## 3. Usage & Sample Commands
 
-The application is operated through a console menu. [cite_start]Upon running, you will be presented with the main menu[cite: 35]:
+The application is operated through a console menu. [cite_start]Upon running, you will be presented with the main menu:
 
 ```
 ==== Campus Course & Records Manager ====
@@ -68,14 +76,14 @@ The application is operated through a console menu. [cite_start]Upon running, yo
 Enter your choice:
 ```
 
-* [cite_start]**Sample Data**: Sample CSV files for importing students and courses are located in the `/test-data` directory[cite: 145]. Use the "Import/Export Data" menu option to load this data into the application.
-* [cite_start]**Backup**: Using the "Backup & Utilities" option will create a new folder in the project directory named `backup_[timestamp]` containing copies of the current data files[cite: 32, 124].
+* **Sample Data**: Sample CSV files for importing students and courses are located in the `/test-data` directory. Use the "Import/Export Data" menu option to load this data into the application.
+* **Backup**: Using the "Backup & Utilities" option will create a new folder in the project directory named `backup_[timestamp]` containing copies of the current data files.
 
 ---
 
 ## 4. Java Core Concepts Explained
 
-### [cite_start]A. Evolution of Java (Timeline) [cite: 42, 132]
+###  Evolution of Java (Timeline)
 
 * **JDK 1.0 (1996):** The initial release.
 * **J2SE 1.2 (1998):** Introduced Collections Framework, Swing, and JIT compiler.
@@ -84,7 +92,7 @@ Enter your choice:
 * **Java SE 11 (2018):** The first Long-Term Support (LTS) release after the new 6-month release cycle.
 * **Java SE 17 (2021):** The latest LTS release, bringing features like Sealed Classes and Pattern Matching for `instanceof`.
 
-### [cite_start]B. Java Platforms: ME vs. SE vs. EE [cite: 43, 133, 125]
+###  Java Platforms: ME vs. SE vs. EE 
 
 | Feature           | Java ME (Micro Edition)                             | Java SE (Standard Edition)                            | Java EE (Enterprise Edition)                          |
 | ----------------- | --------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
@@ -92,7 +100,7 @@ Enter your choice:
 | **Core API** | A subset of the Java SE API with specific libraries for mobile/embedded devices. | The foundational Java platform (includes JDK, JRE, JVM). | Built on top of Java SE, adds APIs for web services, servlets, transactions, etc. |
 | **Example** | Old feature phone apps.                             | This CCRM project, Minecraft: Java Edition.           | Banking applications, e-commerce websites.            |
 
-### [cite_start]C. Java Architecture: JDK vs. JRE vs. JVM [cite: 44, 134]
+### Java Architecture: JDK vs. JRE vs. JVM 
 
 * **JVM (Java Virtual Machine):** An abstract machine that provides the runtime environment in which Java bytecode can be executed. It is platform-dependent and handles memory management, security, and execution.
 * **JRE (Java Runtime Environment):** A software package that contains the JVM, Java class libraries, and other components necessary to *run* Java applications. You need the JRE to run a Java program, but not to develop one.
@@ -104,7 +112,7 @@ Enter your choice:
 
 ## 5. Installation & Setup Guide
 
-### [cite_start]A. JDK Installation on Windows [cite: 45, 135]
+### JDK Installation on Windows 
 
 1.  Download the JDK installer from the official Oracle website or an alternative like Adoptium.
 2.  Run the installer and follow the on-screen instructions.
@@ -113,9 +121,9 @@ Enter your choice:
 5.  Verify the installation by opening a command prompt and running `java -version` and `javac -version`.
 
 **My Installation Verification:**
-[cite_start]`[INSERT YOUR 'java -version' SCREENSHOT HERE]` [cite: 139]
+`[INSERT YOUR 'java -version' SCREENSHOT HERE]` 
 
-### [cite_start]B. Eclipse IDE Project Setup [cite: 46, 135]
+### Eclipse IDE Project Setup 
 
 1.  Launch Eclipse IDE.
 2.  Create a new Java Project via `File` > `New` > `Java Project`.
@@ -123,11 +131,11 @@ Enter your choice:
 4.  Begin creating classes within their respective packages.
 
 **My Eclipse Project Setup:**
-[cite_start]`[INSERT YOUR ECLIPSE PROJECT STRUCTURE SCREENSHOT HERE]` [cite: 140]
+[INSERT YOUR ECLIPSE PROJECT STRUCTURE SCREENSHOT HERE]` 
 
 ---
 
-## [cite_start]6. Project Concepts Mapping Table [cite: 136]
+## Project Concepts Mapping Table 
 
 This table maps the key Java concepts required by the project to their implementation in the source code.
 
@@ -155,18 +163,34 @@ This table maps the key Java concepts required by the project to their implement
 
 ## 7. Screenshots
 
-### Program Running
-[cite_start]`[INSERT SCREENSHOT OF YOUR APPLICATION'S MAIN MENU HERE]` [cite: 141]
+### JDK Installation
+<img width="1089" height="193" alt="Java Installation Verification" src="https://github.com/user-attachments/assets/1250a739-6050-4157-8f92-556626036482" />
 
-### Sample Operation (e.g., Listing Students)
-[cite_start]`[INSERT SCREENSHOT OF A SAMPLE OPERATION HERE]` [cite: 141]
 
-### Backup Folder Structure
-[cite_start]`[INSERT SCREENSHOT OF THE GENERATED BACKUP FOLDER HERE]` [cite: 142]
+### Eclipse Import
+<img width="795" height="873" alt="492903086-4baa52a1-b750-4dde-838c-eb05ff2c0e61" src="https://github.com/user-attachments/assets/89e0364f-23a0-401d-ad2e-f2a77e36ee18" />
+
+
+### Project Structure
+<img width="486" height="607" alt="Project Structure" src="https://github.com/user-attachments/assets/14bc22eb-2858-492d-93f1-715f3d0d926f" />
+
+
+### Student Management
+<img width="663" height="514" alt="image" src="https://github.com/user-attachments/assets/7ffef1f4-d9f2-402f-bc0c-a1eb0f297a54" />
+<img width="1888" height="864" alt="image" src="https://github.com/user-attachments/assets/aef73568-b8e9-4fb2-ae81-be85e26688e8" />
+
+
+
+
 
 ---
 
 ## 8. Acknowledgements
 
 * This project was completed as a requirement for the "Programming in Java" course.
-* Any external libraries or code snippets used are cited in the source code comments where they appear.
+  
+Project Completed: September 2025
+Academic Session: Semester 3, B.Tech Computer Science
+Institution: Vellore Institute of Technology (VIT)
+
+This project demonstrates comprehensive understanding of Java SE features, object-oriented programming principles, and software engineering best practices.
