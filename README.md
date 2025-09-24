@@ -118,10 +118,7 @@ Enter your choice:
 2.  Run the installer and follow the on-screen instructions.
 3.  Set up the `JAVA_HOME` environment variable to point to the JDK installation directory.
 4.  Add the JDK's `bin` folder to the `Path` environment variable.
-5.  Verify the installation by opening a command prompt and running `java -version` and `javac -version`.
-
-**My Installation Verification:**
-`[INSERT YOUR 'java -version' SCREENSHOT HERE]` 
+5.  Verify the installation by opening a command prompt and running `java -version` and `javac -version`. 
 
 ### Eclipse IDE Project Setup 
 
@@ -130,10 +127,6 @@ Enter your choice:
 3.  Set up the project structure by creating packages as required (e.g., `edu.ccrm.domain`, `edu.ccrm.service`).
 4.  Begin creating classes within their respective packages.
 
-**My Eclipse Project Setup:**
-[INSERT YOUR ECLIPSE PROJECT STRUCTURE SCREENSHOT HERE]` 
-
----
 
 ## Project Concepts Mapping Table 
 
